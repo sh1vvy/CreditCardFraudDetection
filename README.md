@@ -8,7 +8,7 @@ Training and Testing notebooks w/ Profile Reports for each stage available at li
 ### Final Notebooks: Notebooks used for training and testing the dataset
 ### Profiling Reports: Data checked/analysis at every few steps (during Explore stage)
 
-Profiling Reports CAN ONLY be seen after downloading
+#### Profiling Reports CAN ONLY be seen after downloading [due to the output being an HTML File]
 
 ## Table of Contents
 
