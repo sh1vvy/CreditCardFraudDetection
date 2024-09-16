@@ -3,6 +3,12 @@
 This project hosts a fraud detection model as an API using Flask. The model is capable of predicting whether a transaction is fraudulent based on several input features provided in JSON format.
 
 Training and Testing notebooks w/ Profile Reports for each stage available at link: https://drive.google.com/drive/folders/1zIDvSDvBLa2Tj3QNEDT0lMN3GsOwcmgH?usp=sharing
+## Drive Structure
+### Archive: old/deleted
+### Final Notebooks: Notebooks used for training and testing the dataset
+### Profiling Reports: Data checked/analysis at every few steps (during Explore stage)
+
+Profiling Reports CAN ONLY be seen after downloading
 
 ## Table of Contents
 
