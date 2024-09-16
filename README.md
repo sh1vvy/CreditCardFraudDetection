@@ -52,7 +52,7 @@ To run the API locally, execute the following command:
 
 You can interact with the API using any HTTP client like Postman, Curl, or directly through a web browser.
 
-Example Input
+# Example Input
 To test the API, you can use the following JSON input:
 ```bash
 {
@@ -74,7 +74,7 @@ To test the API, you can use the following JSON input:
 }
 ```
 
-Example Output
+# Example Output
 The API will return a JSON response indicating whether the transaction is fraudulent:
 
 ```bash
@@ -83,7 +83,7 @@ The API will return a JSON response indicating whether the transaction is fraudu
 }
 ```
 
-#Deployment
+# Deployment
 For deployment, you can consider using platforms like Heroku, AWS, or Render to host the API online.
 
 Example Deployment Command
@@ -93,7 +93,7 @@ For a deployment with Gunicorn on a server:
 gunicorn -w 4 app:app
 ```
 
-#Technologies Used
+# Technologies Used
 - Flask: For building and serving the API.
 - Scikit-learn: For machine learning model and preprocessing.
 - TensorFlow/Keras: For deep learning (if applicable).
@@ -101,8 +101,8 @@ gunicorn -w 4 app:app
 - Gunicorn: WSGI server for running Flask.
 - Joblib: For model serialization.
 
-#Contributing
+# Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request. Issues and bug reports are welcome.
 
-#License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
