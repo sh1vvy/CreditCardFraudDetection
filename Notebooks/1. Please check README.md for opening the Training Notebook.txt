@@ -1,0 +1,2 @@
+Please check README.md for opening the Training Notebook since this file is larger than 25MB and cannot be rendered in GitHub. 
+The test notebook however can be rendered on GitHub and can be checked accordingly.
