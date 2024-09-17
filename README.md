@@ -1,7 +1,7 @@
 # Credit Card Fraud Detection API
 
 ### IMPORTANT
-- **Notebooks being larger than 25MB** can be viewed using nbViewer at link: https://nbviewer.org/github/sh1vvy/CreditCardFraudDetection/blob/master/Notebooks/CCFraudDecFinal.ipynb
+- **Training notebook being larger than 25MB** can be viewed only using *nbViewer* at link: https://nbviewer.org/github/sh1vvy/CreditCardFraudDetection/blob/master/Notebooks/CCFraudDecFinal.ipynb
 
 - **Profiling Reports** made using *ydata-profiling* can only be viewed after downloading.
 
