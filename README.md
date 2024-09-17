@@ -1,5 +1,10 @@
 # Credit Card Fraud Detection API
 
+### IMPORTANT
+- **Notebooks being larger than 25MB** can be viewed using nbViewer at link: https://nbviewer.org/github/sh1vvy/CreditCardFraudDetection/blob/master/Notebooks/CCFraudDecFinal.ipynb
+
+- **Profiling Reports** made using *ydata-profiling* can only be viewed after downloading.
+
 This project hosts a fraud detection model as an API using Flask. The model is capable of predicting whether a transaction is fraudulent based on several input features provided in JSON format.
 
 Training and Testing notebooks w/ Profile Reports for each stage available at link: https://drive.google.com/drive/folders/1zIDvSDvBLa2Tj3QNEDT0lMN3GsOwcmgH?usp=sharing
