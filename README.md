@@ -14,6 +14,8 @@ Training and Testing notebooks w/ Profile Reports for each stage available at li
 - **Final Notebooks**: This folder includes the notebooks used for the final training and testing phases of the dataset.
 - **Profiling Reports**: This folder contains data analysis and checks performed at various stages during the exploration phase.
   - **Note**: Profiling Reports are in HTML format and can only be viewed after downloading.
+ 
+- Archived Notebook having feature engineering and proper EDA: https://nbviewer.org/github/sh1vvy/CreditCardFraudDetection/blob/master/Archive/CCFraudDetectionAnalysis.ipynb
 
 ## Table of Contents
 
