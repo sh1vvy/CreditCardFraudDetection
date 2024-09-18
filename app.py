@@ -5,14 +5,14 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the trained model and preprocessors
-model = joblib.load('trained_model.pkl')
-category_enc = joblib.load('category_encoder.pkl')
-street_enc = joblib.load('street_encoder.pkl')
-gender_enc = joblib.load('gender_encoder.pkl')
-city_enc = joblib.load('city_encoder.pkl')
-merchant_enc = joblib.load('merchant_encoder.pkl')
-trans_num_enc = joblib.load('trans_num_encoder.pkl')
-trans_date_trans_time_enc = joblib.load('trans_date_trans_time_encoder.pkl')
+model = joblib.load(r'Pickle_Files_for_Encoders_and_Model\trained_model.pkl')
+category_enc = joblib.load(r'Pickle_Files_for_Encoders_and_Model\category_encoder.pkl')
+street_enc = joblib.load(r'Pickle_Files_for_Encoders_and_Model\street_encoder.pkl')
+gender_enc = joblib.load(r'Pickle_Files_for_Encoders_and_Model\gender_encoder.pkl')
+city_enc = joblib.load(r'Pickle_Files_for_Encoders_and_Model\city_encoder.pkl')
+merchant_enc = joblib.load(r'Pickle_Files_for_Encoders_and_Model\merchant_encoder.pkl')
+trans_num_enc = joblib.load(r'Pickle_Files_for_Encoders_and_Model\trans_num_encoder.pkl')
+trans_date_trans_time_enc = joblib.load(r'Pickle_Files_for_Encoders_and_Model\trans_date_trans_time_encoder.pkl')
 
 def safe_transform(encoder, value):
     if value not in encoder.classes_:
